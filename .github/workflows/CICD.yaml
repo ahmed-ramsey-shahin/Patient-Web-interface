@@ -52,5 +52,5 @@ jobs:
         with:
           context: ./project/
           push: true
-          tags: ahmedramseyshahin/PatientInterface:${{ github.run_number }}
+          tags: ahmedramseyshahin/patientinterface:${{ github.run_number }}
 
