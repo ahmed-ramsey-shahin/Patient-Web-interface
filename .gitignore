@@ -2,3 +2,4 @@ terraform/labsuser.pem
 terraform/labsuser.ppk
 terraform/.terraform/*
 terraform/.terraform.lock.hcl
+terraform/test.txt
