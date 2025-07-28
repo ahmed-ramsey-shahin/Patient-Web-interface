@@ -79,10 +79,6 @@ jobs:
         run: |
           aws sts get-caller-identity
 
-      - name: Authencation with cluster
-        run: |
-          aws eks update-kubeconfig --name ToDoCluster --region us-east-1
-
       - name: Change the tags
         run: | 
           sed -i 's/ahmedramseyshahin\/patientinterface:.*/ahmedramseyshahin\/patientinterface:'"${{ github.run_number }}"'/g' k8s/backend-deployment.yaml
